@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.example.android.elizachat;
+package com.example.android.wearable.elizachat;
 
 import android.text.TextUtils;
 

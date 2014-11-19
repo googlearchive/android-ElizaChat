@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.example.android.elizachat;
+package com.example.android.wearable.elizachat;
 
 import android.app.Activity;
 import android.content.BroadcastReceiver;
@@ -35,10 +35,10 @@ public class MainActivity extends Activity {
 
     public static final String EXTRA_MESSAGE = "message";
 
-    public static final String ACTION_NOTIFY = "com.example.android.elizachat.NOTIFY";
+    public static final String ACTION_NOTIFY = "com.example.android.wearable.elizachat.NOTIFY";
 
     public static final String ACTION_GET_CONVERSATION
-            = "com.example.android.elizachat.CONVERSATION";
+            = "com.example.android.wearable.elizachat.CONVERSATION";
 
     private BroadcastReceiver mReceiver;
 

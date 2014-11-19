@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.example.android.elizachat;
+package com.example.android.wearable.elizachat;
 
 import android.app.Notification;
 import android.app.PendingIntent;
@@ -36,9 +36,9 @@ import android.util.Log;
  */
 public class ResponderService extends Service {
 
-    public static final String ACTION_INCOMING = "com.example.android.elizachat.INCOMING";
+    public static final String ACTION_INCOMING = "com.example.android.wearable.elizachat.INCOMING";
 
-    public static final String ACTION_RESPONSE = "com.example.android.elizachat.REPLY";
+    public static final String ACTION_RESPONSE = "com.example.android.wearable.elizachat.REPLY";
 
     public static final String EXTRA_REPLY = "reply";
 
